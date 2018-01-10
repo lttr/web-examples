@@ -1,0 +1,55 @@
+:root {
+  --main-back-color: #ddd;
+  --grid-back-color: #edd;
+  --flex-back-color: #ded;
+  --grid-item-color: #dcc;
+  --flex-item-color: #cdc;
+}
+body {
+  margin: 1em;
+  font-size: 1em;
+}
+main {
+  background-color: var(--main-back-color);
+  padding: 1em;
+}
+.box {
+  margin: auto;
+  height: 28em;
+  width: 28em;
+  justify-items: space-between;
+  align-items: flex-start;
+  justify-content: flex-end;
+  /* align-content: flex-end; */
+}
+.grid {
+  background-color: var(--grid-back-color);
+  display: grid;
+  grid-template-columns: repeat(2, 12em);
+}
+.flex {
+  background-color: var(--flex-back-color);
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  /* flex-wrap: nowrap; */
+}
+.item {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 2em;
+  margin: 0.4em;
+  transition-duration: 0.5s;
+  height: 5em;
+}
+.grid-item {
+  background-color: var(--grid-item-color);
+}
+.flex-item {
+  background-color: var(--flex-item-color);
+}
+.special {
+  align-self: flex-end;
+  justify-self: end;
+  /* margin-right: auto; */
+}
