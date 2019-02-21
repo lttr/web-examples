@@ -1,0 +1,25 @@
+{
+  "name": "web-examples",
+  "version": "0.0.1",
+  "description": "A collection of code examples using the web platform",
+  "main": "index.js",
+  "scripts": {
+    "serve": "browser-sync start --server --no-notify --no-ui --files . --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lttr/web-examples.git"
+  },
+  "keywords": [
+    "web",
+    "platform",
+    "examples"
+  ],
+  "author": "Lukas Trumm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lttr/web-examples/issues"
+  },
+  "homepage": "https://github.com/lttr/web-examples#readme"
+}
